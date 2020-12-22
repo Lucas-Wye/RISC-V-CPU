@@ -1,3 +1,6 @@
+/*
+ * @Description: left shift by 1 bits
+ */
 module Shift1 (
   input [31:0] data_i,
   output [31:0] data_o

@@ -1,3 +1,6 @@
+/*
+ * @Description: generate all control signal
+ */
 module Control(
     Op_i       ,
     ALUOp_o    ,

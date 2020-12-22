@@ -1,3 +1,6 @@
+/*
+ * @Description: generate ALU control signal
+ */
 module ALU_Control(
     funct_i    ,
     ALUOp_i    ,

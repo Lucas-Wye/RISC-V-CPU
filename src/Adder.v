@@ -1,3 +1,7 @@
+/*
+ * @Description: Add two 32-bit numbers
+ */
+
 module Adder
 (
     data1_in,
@@ -5,7 +9,7 @@ module Adder
     data_o
 );
 
-input [31:0] data1_in,data2_in;
+input [31:0]  data1_in,data2_in;
 output [31:0] data_o;
 
 assign data_o = data1_in + data2_in ;

@@ -1,10 +1,13 @@
+/*
+ * @Description: get next PC
+ */
 module PC
 (
     clk_i,
     start_i,
     pc_i,
     hazardpc_i,
-    pc_o,
+    pc_o
 );
 
 // Ports
@@ -18,7 +21,7 @@ reg     [31:0]      pc_o;
 reg     flag,flag_next;
 
 always@(*)begin
-    if(pc_i == 32'd248)flag_next = 1;
+    if(pc_i == 32'd248)flag_next = 1; // ???
     else flag_next = flag;
 end
 

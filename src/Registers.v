@@ -1,3 +1,6 @@
+/*
+ * @Description: register init and write
+ */
 module Registers
 (
     clk_i,

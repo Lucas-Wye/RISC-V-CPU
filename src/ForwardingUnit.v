@@ -1,3 +1,6 @@
+/*
+ * @Description: give the forwardA and forwardB
+ */
 module ForwardingUnit
 (   
     EX_MEM_RegWrite_i,

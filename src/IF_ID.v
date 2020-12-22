@@ -1,3 +1,6 @@
+/*
+ * @Description: generate signal for ID
+ */
 module IF_ID(
 	clk_i,
 	start_i,
@@ -8,7 +11,7 @@ module IF_ID(
 	pcIm_i,
 	pcIm_o,
 	pc_o,
-	inst_o,
+	inst_o
 );
 
 input	clk_i, hazard_i, flush_i, start_i;

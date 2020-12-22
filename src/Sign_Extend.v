@@ -1,3 +1,6 @@
+/*
+ * @Description: pad 0 or 1 for sign extension
+ */
 module Sign_Extend(
     select_i,
     data0_i,

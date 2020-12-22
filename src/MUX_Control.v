@@ -1,3 +1,6 @@
+/*
+ * @Description: control signal
+ */
 module MUX_Control(
     Hazard_i, 
     RegDst_i,  
@@ -13,7 +16,7 @@ module MUX_Control(
     RegWrite_o, 
     MemToReg_o, 
     MemRead_o,
-    MemWrite_o,  
+    MemWrite_o 
 );
 
 input	[1:0]	ALUOp_i;

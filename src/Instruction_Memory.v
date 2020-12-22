@@ -1,3 +1,6 @@
+/*
+ * @Description: read from instrs mem
+ */
 module Instruction_Memory
 (
     clk,
@@ -60,7 +63,7 @@ always@(posedge clk or posedge reset)begin
         
         
         if(flag)begin
-            case(quad)
+            case(quad) // ???
             2'b00: memory[address_read][7:0]   <= (instr_read == 8'b1111_1111)?0:instr_read;
             2'b01: memory[address_read][15:8]  <= (instr_read == 8'b1111_1111)?0:instr_read;
             2'b10: memory[address_read][23:16] <= (instr_read == 8'b1111_1111)?0:instr_read;

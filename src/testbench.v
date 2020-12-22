@@ -57,7 +57,7 @@ initial begin
     $readmemb("../dat/instruction2.txt", instr_store);
     $readmemh("../dat/golden.dat",golden);
     // Open output file
-    outfile = $fopen("../dat/output.txt") | 1;
+    // outfile = $fopen("../dat/output.txt") | 1;
     
     Clk = 1;
 
@@ -71,8 +71,8 @@ initial begin
 	$fsdbDumpfile("CPU.fsdb");
 	$fsdbDumpvars;
     $fsdbDumpMDA;
-   //$dumpfile("CPU.vcd");
-   //$dumpvars; 
+    $dumpfile("CPU.vcd");
+    $dumpvars; 
 end
 
 always@(posedge Clk) begin

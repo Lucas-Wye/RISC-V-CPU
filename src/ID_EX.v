@@ -1,3 +1,6 @@
+/*
+ * @Description: generate signal for EX
+ */
 module ID_EX(
 	clk_i,
 	start_i,

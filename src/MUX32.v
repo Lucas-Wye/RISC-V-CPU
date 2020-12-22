@@ -1,3 +1,6 @@
+/*
+ * @Description: Mux for two 32-bit numbers
+ */
 module MUX32(
     data1_i    ,
     data2_i    ,

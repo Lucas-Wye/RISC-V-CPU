@@ -1,9 +1,12 @@
+/*
+ * @Description: check hazard
+ */
 module HazradDetect(
     IF_IDrs1_i,
     IF_IDrs2_i,
     ID_EXrd_i,
     ID_EX_MemRead_i,
-    Hazard_o,
+    Hazard_o
 );
 
 input ID_EX_MemRead_i;

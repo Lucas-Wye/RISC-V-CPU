@@ -1,3 +1,6 @@
+/*
+ * @Description: generate signal for MEM
+ */
 module EX_MEM(
 	clk_i,
 	start_i,
@@ -22,7 +25,7 @@ module EX_MEM(
 	RegWrite_o,
 	MemToReg_o,
 	MemRead_o,
-	MemWrite_o,
+	MemWrite_o
 );
 
 input	clk_i, zero_i, RegWrite_i, MemToReg_i, MemRead_i, MemWrite_i, start_i;

@@ -1,3 +1,6 @@
+/*
+ * @Description: mux for select data, ex_mem and mem_wb
+ */
 module ForwardingMUX(
     select_i,
     data_i,
